@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://demo.saloodo.com/en",  
+    "video": false,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 15000,
+    "ignoreTestFiles": ["*.js"],
+    "firefoxGcInterval": {
+        "runMode": 1,
+        "openMode": null
+      }
+}

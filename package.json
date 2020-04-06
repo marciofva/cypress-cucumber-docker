@@ -1,0 +1,26 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "$(npm bin)/cypress open",
+    "cy:run:chrome": "$(npm bin)/cypress run --browser chrome",
+    "cy:run:firefox": "$(npm bin)/cypress run --browser firefox"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Docker",
+    "Cucumber"
+  ],
+  "author": "Marcio Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "cypress-cucumber-preprocessor": "^2.2.0"
+  },
+    "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  }
+}
